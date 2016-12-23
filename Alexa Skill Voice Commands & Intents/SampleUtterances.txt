@@ -1,0 +1,163 @@
+Hulu hulu
+Hulu set to hulu
+Hulu open hulu
+Hulu start hulu
+Hulu go to hulu
+
+Amazon amazon
+Amazon set to amazon
+Amazon open amazon
+Amazon start amazon
+Amazon go to amazon
+
+YouTube youtube
+YouTube set to youtube
+YouTube open youtube
+YouTube start youtube
+YouTube go to youtube
+
+Plex plex
+Plex set to plex
+Plex open plex
+Plex start plex
+Plex go to plex
+
+Pandora pandora
+Pandora set to pandora
+Pandora open pandora
+Pandora start pandora
+Pandora go to pandora
+
+HBO HBO
+HBO set to HBO
+HBO open HBO
+HBO start HBO
+HBO go to HBO
+
+TV TV
+TV set to TV
+TV open TV
+TV start TV
+TV go to TV
+
+FX FX
+FX set to FX
+FX open FX
+FX start FX
+FX go to FX
+
+FourK FourK
+FourK set to FourK
+FourK open FourK
+FourK start FourK
+FourK go to FourK
+
+Home home
+Home go home
+Home go to home
+
+Fastforward fast forward
+Fastforward skip ahead
+Fastforward move ahead
+
+Rewind rewind 
+Rewind move back
+
+Up go up
+Up move up
+
+Uptwo go up two
+Uptwo move up two
+
+Upthree go up three
+Upthree move up three
+
+Upfour go up four
+Upfour move up four
+
+Upfive go up five
+Upfive move up five
+
+Down go down
+Down move down
+
+Downtwo go down two
+Downtwo move down two
+
+Downthree go down three
+Downthree move down three
+
+Downfour go down four
+Downfour move down four
+
+Downfive go down five
+Downfive move down five
+
+Left go left
+Left move left
+
+Lefttwo go left two
+Lefttwo move left two
+
+Leftthree go left three
+Leftthree move left three
+
+Leftfour go left four
+Leftfour move left four
+
+Leftfive go leftfive
+Leftfive move leftfive
+
+Back go back
+Back move back
+
+Right go right
+Right move right
+
+Righttwo go right two
+Righttwo move right two
+
+Rightthree go right three
+Rightthree move right three
+
+Rightfour go right four
+Rightfour move right four
+
+Rightfive go right five
+Rightfive move right five
+
+Instantreplay skip back
+Instantreplay instant replay
+
+PlayPause play
+PlayPause pause
+PlayPause stop
+PlayPause start
+PlayPause freeze
+
+Select go
+Select enter
+Select select
+Select yes
+
+Power turn off
+Power fuck off
+Power goodbye
+
+Captionson turn on captions
+
+Captionsoff turn off captions
+
+Type type {futurama|Text}
+Type type {How I met your mother|Text}
+Type type {harry potter|Text}
+
+SearchRoku play {frequently asked questions about time travel|Text}
+SearchRoku play {santa claus|Text}
+SearchRoku play {gilmore girls|Text}
+SearchRoku play {harry potter|Text}
+
+SearchPlex play {frequently asked questions about time travel|Text} on plex
+SearchPlex play {santa claus|Text} on plex
+SearchPlex play {gilmore girls|Text} on plex
+SearchPlex play {harry potter|Text} on plex
