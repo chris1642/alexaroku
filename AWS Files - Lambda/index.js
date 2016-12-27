@@ -1,4 +1,4 @@
-var APP_ID = "amzn1.ask.skill.fa7a7e19-ed2f-482b-1237219371293712khjf"; //replace this with your app ID to make use of APP_ID verification - leave quotation marks in
+var APP_ID = "amzn1.ask.skill.f234023084808234234a08ed94324324723423"; //replace this with your app ID to make use of APP_ID verification
 
 var AlexaSkill = require("./AlexaSkill");
 var serverinfo = require("./serverinfo");
@@ -105,13 +105,25 @@ AlexaRoku.prototype.intentHandlers = {
     },
     FourK: function (intent, session, response) {
 		sendCommand("/roku/fourk",null,function() {
-			response.tellWithCard("Launching ForK");
+			response.tellWithCard("Launching Four K");
 		});
 	
     },
     Rewind: function (intent, session, response) {
 		sendCommand("/roku/rewind",null,function() {
 			response.tellWithCard("Rewinding");
+		});
+	
+    },
+    Fastforward: function (intent, session, response) {
+		sendCommand("/roku/fastforward",null,function() {
+			response.tellWithCard("Fast forwarding");
+		});
+	
+    },
+    Instantreplay: function (intent, session, response) {
+		sendCommand("/roku/instantreplay",null,function() {
+			response.tellWithCard("Instant Replay");
 		});
 	
     },
@@ -133,7 +145,7 @@ AlexaRoku.prototype.intentHandlers = {
 		});
 	
     },
-        Upfour: function (intent, session, response) {
+    Upfour: function (intent, session, response) {
 		sendCommand("/roku/upfour",null,function() {
 			response.tellWithCard("Up Four");
 		});
@@ -241,21 +253,6 @@ AlexaRoku.prototype.intentHandlers = {
 		});
 	
     },
-    PlayLast: function (intent, session, response) {
-		sendCommand("/roku/playlast",null,function() {
-			response.tellWithCard("Playing the last Netflix show you searched");
-		});
-    },
-	NextEpisode: function (intent, session, response) {
-		sendCommand("/roku/nextepisode",null,function() {
-			response.tellWithCard("Playing next episode");
-		});
-    },
-	LastEpisode: function (intent, session, response) {
-		sendCommand("/roku/lastepisode",null,function() {
-			response.tellWithCard("Playing previous episode");
-		});
-    },
     Type: function (intent, session, response) {
 		sendCommand("/roku/type",intent.slots.Text.value,function() {
 			response.tellWithCard("Typing text: "+intent.slots.Text.value,"Roku","Typing text: "+intent.slots.Text.value);
@@ -263,22 +260,23 @@ AlexaRoku.prototype.intentHandlers = {
     },
 	PlayPause: function (intent, session, response) {
 		sendCommand("/roku/playpause",null,function() {
-			response.tell("Affirmative");
+			response.tell("Ok");
 		});
     },
-	SearchHBOAndPlay: function (intent, session, response) {
-		sendCommand("/roku/searchhboandplay",intent.slots.Text.value,function() {
-			response.tellWithCard("Playing: "+intent.slots.Text.value,"Roku","Playing: "+intent.slots.Text.value);
+    Playlastyoutube: function (intent, session, response) {
+		sendCommand("/roku/playlastyoutube",null,function() {
+			response.tellWithCard("Playing Last Search on YouTube");
 		});
-    },
-    SearchYouTubeAndPlay: function (intent, session, response) {
-		sendCommand("/roku/searchyoutubeandplay",intent.slots.Text.value,function() {
-			response.tellWithCard("Playing: "+intent.slots.Text.value,"Roku","Playing: "+intent.slots.Text.value);
-		});
+	
     },
     SearchRoku: function (intent, session, response) {
 		sendCommand("/roku/searchroku",intent.slots.Text.value,function() {
 			response.tellWithCard("Playing: "+intent.slots.Text.value,"Roku","Playing: "+intent.slots.Text.value);
+		});
+    },
+    Search: function (intent, session, response) {
+		sendCommand("/roku/search",intent.slots.Text.value,function() {
+			response.tellWithCard("Typing: "+intent.slots.Text.value,"Roku","Playing: "+intent.slots.Text.value);
 		});
     },
     SearchPlex: function (intent, session, response) {
