@@ -1,56 +1,38 @@
-Hulu hulu
-Hulu set to hulu
 Hulu open hulu
 Hulu start hulu
 Hulu go to hulu
 
-Amazon amazon
-Amazon set to amazon
 Amazon open amazon
 Amazon start amazon
 Amazon go to amazon
 
-YouTube youtube
-YouTube set to youtube
 YouTube open youtube
 YouTube start youtube
 YouTube go to youtube
 
-Plex plex
-Plex set to plex
 Plex open plex
 Plex start plex
 Plex go to plex
 
-Pandora pandora
-Pandora set to pandora
 Pandora open pandora
 Pandora start pandora
 Pandora go to pandora
 
-HBO HBO
-HBO set to HBO
-HBO open HBO
-HBO start HBO
-HBO go to HBO
+HBO open aitch bee o
+HBO start aitch bee o
+HBO go to aitch bee o
 
-TV TV
-TV set to TV
-TV open TV
-TV start TV
-TV go to TV
+TV open tv
+TV start tv
+TV go to tv
 
-FX FX
-FX set to FX
-FX open FX
-FX start FX
-FX go to FX
+FX open eff x
+FX start eff x
+FX go to eff x
 
-FourK FourK
-FourK set to FourK
-FourK open FourK
-FourK start FourK
-FourK go to FourK
+FourK open four k
+FourK start four k
+FourK go to four k
 
 Home home
 Home go home
@@ -132,8 +114,6 @@ Instantreplay instant replay
 PlayPause play
 PlayPause pause
 PlayPause stop
-PlayPause start
-PlayPause freeze
 
 Select go
 Select enter
@@ -143,6 +123,10 @@ Select yes
 Power turn off
 Power fuck off
 Power goodbye
+
+Back go back
+Back back up
+Back return
 
 Captionson turn on captions
 
@@ -161,3 +145,9 @@ SearchPlex play {frequently asked questions about time travel|Text} on plex
 SearchPlex play {santa claus|Text} on plex
 SearchPlex play {gilmore girls|Text} on plex
 SearchPlex play {harry potter|Text} on plex
+
+Search search {santa claus|Text}
+Search type {harry potter|Text}
+
+Playlastyoutube play last video on youtube
+Playlastyoutube play the last video on youtube
