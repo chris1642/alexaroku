@@ -1,6 +1,1 @@
-The main node server script that holds all of the functions will be coming soon, along with the guide.
-
-Note that the other files will always be updated when the server file is updated. 
-
-If one functionality is added....it needs to be added in the voice commands (intent/utterances) within Alexa and also with AWS Lambda 
-to know how to talk to your computer.
+Please see 'Alexa Roku Guide.pdf' for complete step-by-step. It is VERY step-by-step, but wanted it to work for all!
