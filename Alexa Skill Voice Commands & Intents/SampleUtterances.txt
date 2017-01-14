@@ -127,6 +127,9 @@ Select yes
 Power turn off
 Power fuck off
 Power goodbye
+Power turn on
+Power power on
+Power power off
 
 Back go back
 Back back up
